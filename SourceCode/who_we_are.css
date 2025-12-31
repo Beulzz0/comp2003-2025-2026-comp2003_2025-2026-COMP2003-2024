@@ -100,7 +100,9 @@ main {
     left: 50px;;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 .nav-buttons{
     position: relative;
