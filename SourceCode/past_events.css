@@ -23,10 +23,10 @@ html, body {
 
 .bg-yellow { 
     position:absolute;
-    top:150px;       /* below the 150px header */
+    top:-150px;       /* below the 150px header */
     left:0;
     width:100vw;
-    height:120px;    /* enough to hold the title */
+    height:100px;    /* enough to hold the title */
     background:#F0FF70;
     z-index:0;
 }
@@ -90,16 +90,17 @@ main {
 
 /* this IS the yellow bar */
 .page-banner{
-    background:#F0FF70;
-    padding: 32px 40px;
-    top: -50px;  /* controls how “tall” it feels */
+    background: #F0FF70;
+    padding: 32px 60px;   /* height of yellow bar */
   }
   
   .page-banner h1{
-    margin:0;
-    font-size:40px;      /* adjust to match Figma */
-    font-weight:500;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 500;
   }
+
+
 .unknownface{
     position:relative;
     left: 435px;
